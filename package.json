@@ -9,11 +9,11 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.126",
-    "@types/react": "^19.1.11",
-    "@types/react-dom": "^19.1.8",
+    "punycode": "^2.3.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
+    "tldts": "^7.0.12",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -40,5 +40,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/punycode": "^2.1.4",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
   }
 }
